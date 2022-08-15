@@ -4,7 +4,7 @@ import java.util.List;
 public class acomodo {
     public static void main(String[] args) throws Exception {
     List<String>cuentasMops = new ArrayList<>();
-    String[] cuentas = {"010709275 02/12/2021 1","010709275 02/02/2022 1" ,"010991940 02/01/2022 3"};
+    String[] cuentas = {"02/12/2021 1","02/02/2022 1" ,"02/01/2022 3"};
     String[] cuentas21 = new String[13];
     //String[] cuenta22={};
     String  datos =null;
