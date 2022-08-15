@@ -11,7 +11,7 @@ public class App {
       String cuentas= null;
       List<String> listCuentas = new ArrayList<>();
 
-        File historico = new File ();
+        File historico = new File ("/home/hakkon/Documentos/cuentasHistorico.txt");
 
         try (BufferedReader obj = new BufferedReader(new FileReader(historico))) {
             while((cuentas = obj.readLine()) != null){
